@@ -10,8 +10,7 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIATRQCHRRYDMN5TKAG"
-  secret_key = "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"
+  
 }
 
 resource "aws_instance" "myfirst-ec2" {
